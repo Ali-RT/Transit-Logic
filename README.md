@@ -15,6 +15,8 @@ The data are stored in an Amazon S3 bucket from where it is streamed into Apache
 
 A PostGIS server resides on an additional EC2 node. PostGIS was chosen to allow for spatial queries. This allows us to filter the data by the proximity of a users position. The Plotly Dash web application is hosted on another EC2 node. Dash was chosen since it easily integrates Mapbox. 
 
+![Pipeline](docs/Ali_Data_Flow_Model.png)
+
 ## Dataset
 
 
