@@ -1,0 +1,11 @@
+{
+  "namespace": "insight",
+  "type": "record",
+  "name": "skip.key",
+  "fields": [
+    {
+      "name": "timestamp",
+      "type": "long"
+    }
+  ]
+}

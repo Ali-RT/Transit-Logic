@@ -1,0 +1,11 @@
+{
+  "namespace": "insight",
+  "type": "record",
+  "name": "bird.key",
+  "fields": [
+    {
+      "name": "timestamp",
+      "type": "long"
+    }
+  ]
+}

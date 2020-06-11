@@ -1,0 +1,11 @@
+{
+  "namespace": "insight",
+  "type": "record",
+  "name": "helbiz.key",
+  "fields": [
+    {
+      "name": "timestamp",
+      "type": "long"
+    }
+  ]
+}
