@@ -44,7 +44,7 @@ def configure_connector():
                     "table.name.format": "location_events",
                     "connection.url": "jdbc:postgresql://localhost:5432/postgres",
                     "connection.user": "postgres",
-                    "connection.password": "project2020",
+                    "connection.password": "+++++",
                     "key.converter": "org.apache.kafka.connect.storage.StringConverter",
                     "key.converter.schemas.enable": "fasle",
                     "key.converter.schema.registry.url": "http://localhost:8081",
