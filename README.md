@@ -42,5 +42,6 @@ Solutions:
 Geohashing techniques is used to aggregate point data and generate KPIs for visualization.
 
 
+3. Geographic object storage
 
-## Trade-offs
+Since geohash is used for aggregation, they could be stored either as geographic objects (Polygons) or alphanumeric string. The former need much more storage space while it's much easier to handle for visualization. The latter is only supported by a limited number of databases like Elsticsearch.
