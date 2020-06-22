@@ -11,8 +11,8 @@ The shared micromobility operators compete in a highly competitive market with a
 The **T**ransit**L**ogic is a platform to ingest real-time data from different sources to provide operators with analytics dashboard reporting KPIs like idle time per vehicle, average available vehicle per operators, etc. 
 
 ## Architecture
-The data are stored in an Amazon S3 bucket from where it is streamed into Apache Kafka. A Confluent Kafka cluster is set up on X Amazon EC2 nodes. Also, a schema registry is configured that handles the evolution of the data schema. Avro is chosen as a serialization format to work with the schema registry. Data is then passed to the Faust streaming app for data processing and extracting and adding geo hash to output streams.
-The Kafka connector sinks the output streams into the Elasticsearch for further spatial queries and visualization by Grafana. 
+The data resides in an Amazon S3 bucket from where it is streamed into Apache Kafka. A Confluent Kafka cluster is set up on Amazon EC2 node. Also, a schema registry is configured that handles the evolution of the data schema. Avro is chosen as a serialization format to work with the schema registry. Data is then passed to the Faust streaming app for data processing and extracting and adding geo hash to output streams.
+The Kafka connector sinks the output streams into the Elasticsearch for further spatial queries and visualization by Grafana.  
 
 ![Pipeline](docs/Pipeline.png)
 
