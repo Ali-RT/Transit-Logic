@@ -175,8 +175,8 @@ def main(args):
     # SOURCE_FILE = f"/home/bison/Downloads/Data/Sample/{OPERATOR}.txt"
     # AWS S3
     S3_BUCKET_NAME = "insight.micromobility.sample.data"
-    AWS_ACCESS_KEY_ID = "AKIAJXKNBSMCPHSNPTZQ"
-    AWS_SECRET_ACCESS_KEY = "V9AGNwoUbURRh607MNtgjNKiRYp6Nbeb6rugzEwb"
+    AWS_ACCESS_KEY_ID = "A***"
+    AWS_SECRET_ACCESS_KEY = "V***"
 
     client = AdminClient({"bootstrap.servers": BROKER_URL})
 
