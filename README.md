@@ -1,5 +1,5 @@
-# Micromobility Utilizer
-This is my Insight Data Engineering project (Summer 2020). It is a platform for micromobiltiy operators to utilize their assets.
+# Transit Logic
+It is my Insight Data Engineering project (Summer 2020). It is a platform to help micro-mobility operators have a better decision-making process and maximize their asset utilization.
 
 ## How to install and get it up and running
 
@@ -18,7 +18,7 @@ A PostGIS server resides on an additional EC2 node. PostGIS was chosen to allow 
 ![Pipeline](docs/Pipeline.png)
 
 ## Dataset
-
+For project demonstration, real-time bike and scooter sharing data are collected from District Department of Transportation public API [title](https://ddot.dc.gov/page/dockless-api). The approximate volume of data for 5 operators is more than 50 GB or 300 million records depending upon API availability and response rate. The sample data is available upon request. 
 
 
 ## Engineering challenges
