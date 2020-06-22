@@ -1,8 +1,6 @@
 # Transit Logic
 It is my Insight Data Engineering project (Summer 2020). It is a platform to help micro-mobility operators have a better decision-making process and maximize their asset utilization.
 
-## How to install and get it up and running
-
 ## Introduction
 Micromobility refers to all shared-use fleet of small, lightweight, and fully or partially human-powered vehicles such as Ebikes, electric scooters, electric skateboards, shared bicycles, and electric pedal-assisted (pedelec) bicycles. They primarily address the transit desert or first/last mile problem in urban areas. 
 
