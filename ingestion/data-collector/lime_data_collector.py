@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Skip data collector
+"""Bird data collector
 
-Data collector from Skip API
-data columns: bike_id, is_disabled, is_reserved, last_updated, lat, lon, operator, vehicle_type
+Data collector from Bird API
+data columns: battery_level, bike_id, is_disabled, is_reserved, last_updated, lat, lon, operator, vehicle_type
 """
 __author__ = 'Ali Rahim-Taleqani'
 __copyright__ = 'Copyright 2020, The Insight Data Engineering'
@@ -16,14 +16,14 @@ import requests
 from datetime import datetime
 from requests.models import Response
 import time
+OPERATOR = "lime"
 
-OPERATOR = "skip"
 
 while True:
     try:
-        response: Response = requests.get("https://us-central1-waybots-production.cloudfunctions.net/ddotApi-dcFreeBikeStatus")
+        response: Response = requests.get("https://data.lime.bike/api/partners/v1/gbfs/washington_dc/free_bike_status.json")
         if response.status_code == 200:
-            dict_data = response.json()['bikes']
+            dict_data = response.json()['data']['bikes']
 
             with open(OPERATOR+'.txt', 'a') as file:
                 for d in dict_data:
@@ -32,6 +32,7 @@ while True:
 
         time.sleep(1)
         file.close()
+
     except requests.ConnectionError as e:
         print("OOPS!! Connection Error. Make sure you are connected to Internet. Technical Details given below.\n")
         print(str(e))
