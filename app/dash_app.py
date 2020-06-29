@@ -135,6 +135,9 @@ def generate_graph(dataframe):
 original_dataframe = generate_kpi('All', 'geo7', 'scooter', 0, 0, 2020, 21, 0)
 original_fig = generate_graph(original_dataframe)
 
+
+px.set_mapbox_access_token(open(".mapbox_token").read())
+
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
