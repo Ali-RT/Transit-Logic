@@ -1,5 +1,5 @@
 # Transit Logic
-It is my Insight Data Engineering project (Summer 2020). It is a platform to help micro-mobility operators have a better decision-making process and maximize their asset utilization. The Transit Logic proejct is presented [here](https://docs.google.com/presentation/d/1Jr13kSvMab7EqSkpLz6PW41JB4xvtoiu6_nLKo-NfUk/edit?usp=sharing). The Demo is also available [here](https://youtu.be/5NTYfZS3qf8).
+It is my Insight Data Engineering project (Summer 2020). It is a platform to help micro-mobility operators have a better decision-making process and maximize their asset utilization. The Transit Logic proejct is presented [here](https://docs.google.com/presentation/d/1q-EkFQRHq_nqcgUlSbZShpoxFmHcIzjOegYSRufsBOQ/edit?usp=sharing). The Demo is also available [here](https://youtu.be/5NTYfZS3qf8).
 
 ## Introduction
 Micromobility refers to all shared-use fleet of small, lightweight, and fully or partially human-powered vehicles such as Ebikes, electric scooters, electric skateboards, shared bicycles, and electric pedal-assisted (pedelec) bicycles. They primarily address the transit desert or first/last mile problem in urban areas. 
